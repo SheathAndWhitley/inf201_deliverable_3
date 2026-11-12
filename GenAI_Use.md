@@ -27,3 +27,14 @@ and check whether our scripts met all requirements. The assistant:
   - Was renamed to make the repo tidier having all class scripts grouped together
 - Drafted this `GenAI_Use.md` file. The parts about our own earlier work are left for us to fill in,
   since the assistant had no record of them.
+
+### 3. Preparing the repository for hand-in (Claude Code, 12 Nov 2026)
+
+We asked Claude Code to get the repository ready for submission. It did not change any of our Python
+modules or the notebook's code. It:
+
+- Re-ran all notebook cells with our virtual environment to check that they run without errors.
+- Generated `requirements.txt` from our `.venv` (`pip freeze`).
+- Wrote `README.md` with the repository link, a file overview and setup instructions.
+- Exported `rpg_simulator.ipynb` to `rpg_simulator.pdf` (nbconvert webpdf).
+- Added this section to `GenAI_Use.md`.
