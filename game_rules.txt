@@ -1,0 +1,8 @@
+The rules for the game is as follows:
+The game you build should allow two characters to battle until one of them wins.
+The characters can use weapons to attack, where the damage dealt is determined by
+a dice roll.
+The characters can have different specialisations (warrior or mage).
+A character's HP (hit points, or health) must be between 0 and the max given for this
+specific character.
+The character dies when it reaches 0 HP.
